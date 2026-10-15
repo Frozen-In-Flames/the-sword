@@ -1,0 +1,1215 @@
+{
+ "tool": "Mergers and Acquisitions For Peace",
+ "version": "0.1.0",
+ "sector": "defense",
+ "pairs_scored": 12,
+ "score_note": "Screening scores 0-100; not valuations, not advice.",
+ "pairs": [
+  {
+   "acquirer": "TDG",
+   "acquirer_name": "TransDigm Group",
+   "target": "BA",
+   "target_name": "Boeing",
+   "shared_concept_count": 15,
+   "shared_concepts_top": [
+    "aircraft",
+    "assembly",
+    "base"
+   ],
+   "redundant_pair_count": 25,
+   "redundant_pairs_top": [
+    {
+     "a_number": "10415720",
+     "a_title": "Automatic fill system",
+     "b_number": "12760799",
+     "b_title": "Pneumatic valves, pneumatic apparatuses, and methods for controlling pneumatic f",
+     "shared_concepts": [
+      "chamber",
+      "formed",
+      "inlet",
+      "position",
+      "valve"
+     ],
+     "score": 10
+    },
+    {
+     "a_number": "10415720",
+     "a_title": "Automatic fill system",
+     "b_number": "12761129",
+     "b_title": "Hydraulic dissolved air measurement system and method",
+     "shared_concepts": [
+      "chamber",
+      "position",
+      "sensor",
+      "valve"
+     ],
+     "score": 8
+    },
+    {
+     "a_number": "6729368",
+     "a_title": "Lavatory service shut off valve",
+     "b_number": "12760799",
+     "b_title": "Pneumatic valves, pneumatic apparatuses, and methods for controlling pneumatic f",
+     "shared_concepts": [
+      "body",
+      "inlet",
+      "position",
+      "valve"
+     ],
+     "score": 8
+    },
+    {
+     "a_number": "11608917",
+     "a_title": "Non-metallic fluid coupling",
+     "b_number": "12760799",
+     "b_title": "Pneumatic valves, pneumatic apparatuses, and methods for controlling pneumatic f",
+     "shared_concepts": [
+      "formed",
+      "position",
+      "surface"
+     ],
+     "score": 6
+    },
+    {
+     "a_number": "11009159",
+     "a_title": "Visual and tactile latch indicator for a fuel system coupling",
+     "b_number": "12760799",
+     "b_title": "Pneumatic valves, pneumatic apparatuses, and methods for controlling pneumatic f",
+     "shared_concepts": [
+      "formed",
+      "position",
+      "surface"
+     ],
+     "score": 6
+    }
+   ],
+   "gap_concept_count": 105,
+   "gap_concepts_top": [
+    "accessory",
+    "accessory port",
+    "actuator"
+   ],
+   "target_awards_latest_fy": 2025,
+   "target_awards_latest_usd": 23804316462.74,
+   "target_awards_source": "Federal obligated award dollars (contracts, grants, loans, direct payments and other financial assistance), USAspending.gov /api/v2/search/spending_by_category/recipient/, matched by recipient name. Federal only; excludes state and local spending.",
+   "portfolio_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:14.678995+00:00",
+    "target": "cached:2026-10-15T04:15:46.775610+00:00"
+   },
+   "awards_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:19.287465+00:00",
+    "target": "cached:2026-10-15T04:15:52.808310+00:00"
+   },
+   "weights": {
+    "concept_overlap": 0.3,
+    "redundancy": 0.2,
+    "gap_closure": 0.25,
+    "award_scale": 0.25
+   },
+   "score_parts": {
+    "concept_overlap": 1.0,
+    "redundancy": 1.0,
+    "gap_closure": 0.905,
+    "award_scale": 0.956
+   },
+   "screening_score": 96.5,
+   "rationale": "TransDigm Group acquiring Boeing. shares 15 technology concepts, including aircraft, assembly, base. 25 redundant patent pairs suggest overlapping R and D that a merger could prune. adds 105 capabilities TransDigm Group lacks, including accessory, accessory port, actuator. brings $23,804,316,463 in FY2025 federal awards under one roof (USAspending.gov, pulled cached:2026-10-15T04:15:52.808310+00:00)."
+  },
+  {
+   "acquirer": "TDG",
+   "acquirer_name": "TransDigm Group",
+   "target": "RTX",
+   "target_name": "RTX Corporation",
+   "shared_concept_count": 13,
+   "shared_concepts_top": [
+    "assembly",
+    "base",
+    "elements"
+   ],
+   "redundant_pair_count": 25,
+   "redundant_pairs_top": [
+    {
+     "a_number": "10415720",
+     "a_title": "Automatic fill system",
+     "b_number": "12755868",
+     "b_title": "Low cost scalable micro coaxial interconnect",
+     "shared_concepts": [
+      "assembly",
+      "end",
+      "formed",
+      "further",
+      "level"
+     ],
+     "score": 10
+    },
+    {
+     "a_number": "12729784",
+     "a_title": "Non-metallic fluid coupling",
+     "b_number": "12760839",
+     "b_title": "High temperature sealing system for an axially expanding volume",
+     "shared_concepts": [
+      "formed",
+      "material",
+      "member",
+      "sealing"
+     ],
+     "score": 8
+    },
+    {
+     "a_number": "12729784",
+     "a_title": "Non-metallic fluid coupling",
+     "b_number": "12755868",
+     "b_title": "Low cost scalable micro coaxial interconnect",
+     "shared_concepts": [
+      "elements",
+      "formed",
+      "material",
+      "member"
+     ],
+     "score": 8
+    },
+    {
+     "a_number": "11009159",
+     "a_title": "Visual and tactile latch indicator for a fuel system coupling",
+     "b_number": "12760839",
+     "b_title": "High temperature sealing system for an axially expanding volume",
+     "shared_concepts": [
+      "end",
+      "formed",
+      "further",
+      "member"
+     ],
+     "score": 8
+    },
+    {
+     "a_number": "11009159",
+     "a_title": "Visual and tactile latch indicator for a fuel system coupling",
+     "b_number": "12755868",
+     "b_title": "Low cost scalable micro coaxial interconnect",
+     "shared_concepts": [
+      "end",
+      "formed",
+      "further",
+      "member"
+     ],
+     "score": 8
+    }
+   ],
+   "gap_concept_count": 107,
+   "gap_concepts_top": [
+    "along",
+    "annular",
+    "arm"
+   ],
+   "target_awards_latest_fy": 2025,
+   "target_awards_latest_usd": 7285263024.8,
+   "target_awards_source": "Federal obligated award dollars (contracts, grants, loans, direct payments and other financial assistance), USAspending.gov /api/v2/search/spending_by_category/recipient/, matched by recipient name. Federal only; excludes state and local spending.",
+   "portfolio_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:14.678995+00:00",
+    "target": "cached:2026-10-15T04:14:50.168725+00:00"
+   },
+   "awards_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:19.287465+00:00",
+    "target": "cached:2026-10-15T04:14:56.550723+00:00"
+   },
+   "weights": {
+    "concept_overlap": 0.3,
+    "redundancy": 0.2,
+    "gap_closure": 0.25,
+    "award_scale": 0.25
+   },
+   "score_parts": {
+    "concept_overlap": 0.867,
+    "redundancy": 1.0,
+    "gap_closure": 0.922,
+    "award_scale": 0.909
+   },
+   "screening_score": 91.8,
+   "rationale": "TransDigm Group acquiring RTX Corporation. shares 13 technology concepts, including assembly, base, elements. 25 redundant patent pairs suggest overlapping R and D that a merger could prune. adds 107 capabilities TransDigm Group lacks, including along, annular, arm. brings $7,285,263,025 in FY2025 federal awards under one roof (USAspending.gov, pulled cached:2026-10-15T04:14:56.550723+00:00)."
+  },
+  {
+   "acquirer": "TDG",
+   "acquirer_name": "TransDigm Group",
+   "target": "HII",
+   "target_name": "Huntington Ingalls Industries",
+   "shared_concept_count": 11,
+   "shared_concepts_top": [
+    "assembly",
+    "attached",
+    "body"
+   ],
+   "redundant_pair_count": 25,
+   "redundant_pairs_top": [
+    {
+     "a_number": "7392569",
+     "a_title": "Clamping apparatus and method",
+     "b_number": "11697038",
+     "b_title": "Method and device for securing a vertical line",
+     "shared_concepts": [
+      "attached",
+      "end",
+      "member",
+      "surface"
+     ],
+     "score": 8
+    },
+    {
+     "a_number": "7392569",
+     "a_title": "Clamping apparatus and method",
+     "b_number": "11353657",
+     "b_title": "Fiber-optic-splice enclosure",
+     "shared_concepts": [
+      "attached",
+      "end",
+      "housing",
+      "surface"
+     ],
+     "score": 8
+    },
+    {
+     "a_number": "7392569",
+     "a_title": "Clamping apparatus and method",
+     "b_number": "11224935",
+     "b_title": "System and method for ultrasonic additive manufacturing",
+     "shared_concepts": [
+      "attached",
+      "end",
+      "housing",
+      "surface"
+     ],
+     "score": 8
+    },
+    {
+     "a_number": "7392569",
+     "a_title": "Clamping apparatus and method",
+     "b_number": "11897046",
+     "b_title": "System and method for ultrasonic additive manufacturing",
+     "shared_concepts": [
+      "attached",
+      "end",
+      "housing",
+      "surface"
+     ],
+     "score": 8
+    },
+    {
+     "a_number": "6971682",
+     "a_title": "Coupling assembly",
+     "b_number": "11353657",
+     "b_title": "Fiber-optic-splice enclosure",
+     "shared_concepts": [
+      "assembly",
+      "attached",
+      "end",
+      "ferrule"
+     ],
+     "score": 8
+    }
+   ],
+   "gap_concept_count": 109,
+   "gap_concepts_top": [
+    "actuator",
+    "alignment",
+    "alignment and connection"
+   ],
+   "target_awards_latest_fy": 2025,
+   "target_awards_latest_usd": 8565929513.48,
+   "target_awards_source": "Federal obligated award dollars (contracts, grants, loans, direct payments and other financial assistance), USAspending.gov /api/v2/search/spending_by_category/recipient/, matched by recipient name. Federal only; excludes state and local spending.",
+   "portfolio_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:14.678995+00:00",
+    "target": "cached:2026-10-15T04:15:59.151736+00:00"
+   },
+   "awards_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:19.287465+00:00",
+    "target": "cached:2026-10-15T04:16:06.608620+00:00"
+   },
+   "weights": {
+    "concept_overlap": 0.3,
+    "redundancy": 0.2,
+    "gap_closure": 0.25,
+    "award_scale": 0.25
+   },
+   "score_parts": {
+    "concept_overlap": 0.733,
+    "redundancy": 1.0,
+    "gap_closure": 0.94,
+    "award_scale": 0.915
+   },
+   "screening_score": 88.4,
+   "rationale": "TransDigm Group acquiring Huntington Ingalls Industries. shares 11 technology concepts, including assembly, attached, body. 25 redundant patent pairs suggest overlapping R and D that a merger could prune. adds 109 capabilities TransDigm Group lacks, including actuator, alignment, alignment and connection. brings $8,565,929,513 in FY2025 federal awards under one roof (USAspending.gov, pulled cached:2026-10-15T04:16:06.608620+00:00)."
+  },
+  {
+   "acquirer": "TDG",
+   "acquirer_name": "TransDigm Group",
+   "target": "TXT",
+   "target_name": "Textron",
+   "shared_concept_count": 11,
+   "shared_concepts_top": [
+    "adapter",
+    "aircraft",
+    "assembly"
+   ],
+   "redundant_pair_count": 25,
+   "redundant_pairs_top": [
+    {
+     "a_number": "6971682",
+     "a_title": "Coupling assembly",
+     "b_number": "12759699",
+     "b_title": "Pass-through coupling shaft",
+     "shared_concepts": [
+      "attached",
+      "coupling",
+      "end"
+     ],
+     "score": 6
+    },
+    {
+     "a_number": "6971682",
+     "a_title": "Coupling assembly",
+     "b_number": "12752920",
+     "b_title": "Magnetic access panel",
+     "shared_concepts": [
+      "assembly",
+      "attached",
+      "position"
+     ],
+     "score": 6
+    },
+    {
+     "a_number": "11608917",
+     "a_title": "Non-metallic fluid coupling",
+     "b_number": "12759699",
+     "b_title": "Pass-through coupling shaft",
+     "shared_concepts": [
+      "attached",
+      "coupling"
+     ],
+     "score": 4
+    },
+    {
+     "a_number": "11608917",
+     "a_title": "Non-metallic fluid coupling",
+     "b_number": "12752920",
+     "b_title": "Magnetic access panel",
+     "shared_concepts": [
+      "attached",
+      "position"
+     ],
+     "score": 4
+    },
+    {
+     "a_number": "11608917",
+     "a_title": "Non-metallic fluid coupling",
+     "b_number": "12747024",
+     "b_title": "Mechanical de-icing system",
+     "shared_concepts": [
+      "elements",
+      "surface"
+     ],
+     "score": 4
+    }
+   ],
+   "gap_concept_count": 109,
+   "gap_concepts_top": [
+    "access",
+    "access panel",
+    "actuator"
+   ],
+   "target_awards_latest_fy": 2025,
+   "target_awards_latest_usd": 3271083767.71,
+   "target_awards_source": "Federal obligated award dollars (contracts, grants, loans, direct payments and other financial assistance), USAspending.gov /api/v2/search/spending_by_category/recipient/, matched by recipient name. Federal only; excludes state and local spending.",
+   "portfolio_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:14.678995+00:00",
+    "target": "cached:2026-10-15T04:17:02.145010+00:00"
+   },
+   "awards_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:19.287465+00:00",
+    "target": "cached:2026-10-15T04:17:08.656502+00:00"
+   },
+   "weights": {
+    "concept_overlap": 0.3,
+    "redundancy": 0.2,
+    "gap_closure": 0.25,
+    "award_scale": 0.25
+   },
+   "score_parts": {
+    "concept_overlap": 0.733,
+    "redundancy": 1.0,
+    "gap_closure": 0.94,
+    "award_scale": 0.877
+   },
+   "screening_score": 87.4,
+   "rationale": "TransDigm Group acquiring Textron. shares 11 technology concepts, including adapter, aircraft, assembly. 25 redundant patent pairs suggest overlapping R and D that a merger could prune. adds 109 capabilities TransDigm Group lacks, including access, access panel, actuator. brings $3,271,083,768 in FY2025 federal awards under one roof (USAspending.gov, pulled cached:2026-10-15T04:17:08.656502+00:00)."
+  },
+  {
+   "acquirer": "TDG",
+   "acquirer_name": "TransDigm Group",
+   "target": "LMT",
+   "target_name": "Lockheed Martin",
+   "shared_concept_count": 9,
+   "shared_concepts_top": [
+    "aircraft",
+    "body",
+    "elements"
+   ],
+   "redundant_pair_count": 25,
+   "redundant_pairs_top": [
+    {
+     "a_number": "11608917",
+     "a_title": "Non-metallic fluid coupling",
+     "b_number": "12756104",
+     "b_title": "Low-profile magneto-electric dipole antenna",
+     "shared_concepts": [
+      "elements",
+      "formed",
+      "surface"
+     ],
+     "score": 6
+    },
+    {
+     "a_number": "11009159",
+     "a_title": "Visual and tactile latch indicator for a fuel system coupling",
+     "b_number": "12756104",
+     "b_title": "Low-profile magneto-electric dipole antenna",
+     "shared_concepts": [
+      "formed",
+      "members",
+      "surface"
+     ],
+     "score": 6
+    },
+    {
+     "a_number": "11009159",
+     "a_title": "Visual and tactile latch indicator for a fuel system coupling",
+     "b_number": "12753823",
+     "b_title": "Active crew seat vibration control",
+     "shared_concepts": [
+      "fluid",
+      "further",
+      "surface"
+     ],
+     "score": 6
+    },
+    {
+     "a_number": "10415720",
+     "a_title": "Automatic fill system",
+     "b_number": "12753823",
+     "b_title": "Active crew seat vibration control",
+     "shared_concepts": [
+      "fluid",
+      "further",
+      "sensor"
+     ],
+     "score": 6
+    },
+    {
+     "a_number": "6729368",
+     "a_title": "Lavatory service shut off valve",
+     "b_number": "12753823",
+     "b_title": "Active crew seat vibration control",
+     "shared_concepts": [
+      "aircraft",
+      "fluid",
+      "further"
+     ],
+     "score": 6
+    }
+   ],
+   "gap_concept_count": 111,
+   "gap_concepts_top": [
+    "aerial",
+    "aerial vehicle",
+    "antenna"
+   ],
+   "target_awards_latest_fy": 2025,
+   "target_awards_latest_usd": 71043556330.99,
+   "target_awards_source": "Federal obligated award dollars (contracts, grants, loans, direct payments and other financial assistance), USAspending.gov /api/v2/search/spending_by_category/recipient/, matched by recipient name. Federal only; excludes state and local spending.",
+   "portfolio_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:14.678995+00:00",
+    "target": "cached:2026-10-15T04:14:32.035321+00:00"
+   },
+   "awards_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:19.287465+00:00",
+    "target": "cached:2026-10-15T04:14:45.411044+00:00"
+   },
+   "weights": {
+    "concept_overlap": 0.3,
+    "redundancy": 0.2,
+    "gap_closure": 0.25,
+    "award_scale": 0.25
+   },
+   "score_parts": {
+    "concept_overlap": 0.6,
+    "redundancy": 1.0,
+    "gap_closure": 0.957,
+    "award_scale": 1.0
+   },
+   "screening_score": 86.9,
+   "rationale": "TransDigm Group acquiring Lockheed Martin. shares 9 technology concepts, including aircraft, body, elements. 25 redundant patent pairs suggest overlapping R and D that a merger could prune. adds 111 capabilities TransDigm Group lacks, including aerial, aerial vehicle, antenna. brings $71,043,556,331 in FY2025 federal awards under one roof (USAspending.gov, pulled cached:2026-10-15T04:14:45.411044+00:00)."
+  },
+  {
+   "acquirer": "TDG",
+   "acquirer_name": "TransDigm Group",
+   "target": "NOC",
+   "target_name": "Northrop Grumman",
+   "shared_concept_count": 7,
+   "shared_concepts_top": [
+    "coupling",
+    "fluid",
+    "formed"
+   ],
+   "redundant_pair_count": 25,
+   "redundant_pairs_top": [
+    {
+     "a_number": "11608917",
+     "a_title": "Non-metallic fluid coupling",
+     "b_number": "12763534",
+     "b_title": "Self-passivating material communication cable system",
+     "shared_concepts": [
+      "formed",
+      "material"
+     ],
+     "score": 4
+    },
+    {
+     "a_number": "11608917",
+     "a_title": "Non-metallic fluid coupling",
+     "b_number": "12728490",
+     "b_title": "Material support systems, material support structures, and related methods",
+     "shared_concepts": [
+      "fluid",
+      "material"
+     ],
+     "score": 4
+    },
+    {
+     "a_number": "12729784",
+     "a_title": "Non-metallic fluid coupling",
+     "b_number": "12763534",
+     "b_title": "Self-passivating material communication cable system",
+     "shared_concepts": [
+      "formed",
+      "material"
+     ],
+     "score": 4
+    },
+    {
+     "a_number": "12729784",
+     "a_title": "Non-metallic fluid coupling",
+     "b_number": "12728490",
+     "b_title": "Material support systems, material support structures, and related methods",
+     "shared_concepts": [
+      "fluid",
+      "material"
+     ],
+     "score": 4
+    },
+    {
+     "a_number": "9488201",
+     "a_title": "Tucked cushion clamp and process of making a tucked cushion clamp",
+     "b_number": "12763534",
+     "b_title": "Self-passivating material communication cable system",
+     "shared_concepts": [
+      "forming",
+      "material"
+     ],
+     "score": 4
+    }
+   ],
+   "gap_concept_count": 113,
+   "gap_concepts_top": [
+    "al",
+    "algan",
+    "amplifier"
+   ],
+   "target_awards_latest_fy": 2025,
+   "target_awards_latest_usd": 12945795489.18,
+   "target_awards_source": "Federal obligated award dollars (contracts, grants, loans, direct payments and other financial assistance), USAspending.gov /api/v2/search/spending_by_category/recipient/, matched by recipient name. Federal only; excludes state and local spending.",
+   "portfolio_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:14.678995+00:00",
+    "target": "cached:2026-10-15T04:15:31.399212+00:00"
+   },
+   "awards_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:19.287465+00:00",
+    "target": "cached:2026-10-15T04:15:40.549840+00:00"
+   },
+   "weights": {
+    "concept_overlap": 0.3,
+    "redundancy": 0.2,
+    "gap_closure": 0.25,
+    "award_scale": 0.25
+   },
+   "score_parts": {
+    "concept_overlap": 0.467,
+    "redundancy": 1.0,
+    "gap_closure": 0.974,
+    "award_scale": 0.932
+   },
+   "screening_score": 81.7,
+   "rationale": "TransDigm Group acquiring Northrop Grumman. shares 7 technology concepts, including coupling, fluid, formed. 25 redundant patent pairs suggest overlapping R and D that a merger could prune. adds 113 capabilities TransDigm Group lacks, including al, algan, amplifier. brings $12,945,795,489 in FY2025 federal awards under one roof (USAspending.gov, pulled cached:2026-10-15T04:15:40.549840+00:00)."
+  },
+  {
+   "acquirer": "TDG",
+   "acquirer_name": "TransDigm Group",
+   "target": "AXON",
+   "target_name": "Axon Enterprise",
+   "shared_concept_count": 5,
+   "shared_concepts_top": [
+    "end",
+    "further",
+    "indicator"
+   ],
+   "redundant_pair_count": 25,
+   "redundant_pairs_top": [
+    {
+     "a_number": "11009159",
+     "a_title": "Visual and tactile latch indicator for a fuel system coupling",
+     "b_number": "12736312",
+     "b_title": "Conducted electrical weapon cartridge cover and shorting bar",
+     "shared_concepts": [
+      "end",
+      "further",
+      "mechanism",
+      "position"
+     ],
+     "score": 8
+    },
+    {
+     "a_number": "6971682",
+     "a_title": "Coupling assembly",
+     "b_number": "12736312",
+     "b_title": "Conducted electrical weapon cartridge cover and shorting bar",
+     "shared_concepts": [
+      "end",
+      "further",
+      "mechanism",
+      "position"
+     ],
+     "score": 8
+    },
+    {
+     "a_number": "11009159",
+     "a_title": "Visual and tactile latch indicator for a fuel system coupling",
+     "b_number": "12674641",
+     "b_title": "Propulsion module assembly for a projectile launcher",
+     "shared_concepts": [
+      "end",
+      "further",
+      "position"
+     ],
+     "score": 6
+    },
+    {
+     "a_number": "11009159",
+     "a_title": "Visual and tactile latch indicator for a fuel system coupling",
+     "b_number": "12663242",
+     "b_title": "Weapon with indicator activated based on position",
+     "shared_concepts": [
+      "further",
+      "indicator",
+      "position"
+     ],
+     "score": 6
+    },
+    {
+     "a_number": "10415720",
+     "a_title": "Automatic fill system",
+     "b_number": "12736312",
+     "b_title": "Conducted electrical weapon cartridge cover and shorting bar",
+     "shared_concepts": [
+      "end",
+      "further",
+      "position"
+     ],
+     "score": 6
+    }
+   ],
+   "gap_concept_count": 115,
+   "gap_concepts_top": [
+    "accessory",
+    "activation",
+    "aggregate prioritization"
+   ],
+   "target_awards_latest_fy": 2025,
+   "target_awards_latest_usd": 72649160.86,
+   "target_awards_source": "Federal obligated award dollars (contracts, grants, loans, direct payments and other financial assistance), USAspending.gov /api/v2/search/spending_by_category/recipient/, matched by recipient name. Federal only; excludes state and local spending.",
+   "portfolio_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:14.678995+00:00",
+    "target": "cached:2026-10-15T04:16:24.848116+00:00"
+   },
+   "awards_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:19.287465+00:00",
+    "target": "cached:2026-10-15T04:16:28.186091+00:00"
+   },
+   "weights": {
+    "concept_overlap": 0.3,
+    "redundancy": 0.2,
+    "gap_closure": 0.25,
+    "award_scale": 0.25
+   },
+   "score_parts": {
+    "concept_overlap": 0.333,
+    "redundancy": 1.0,
+    "gap_closure": 0.991,
+    "award_scale": 0.724
+   },
+   "screening_score": 72.9,
+   "rationale": "TransDigm Group acquiring Axon Enterprise. shares 5 technology concepts, including end, further, indicator. 25 redundant patent pairs suggest overlapping R and D that a merger could prune. adds 115 capabilities TransDigm Group lacks, including accessory, activation, aggregate prioritization. brings $72,649,161 in FY2025 federal awards under one roof (USAspending.gov, pulled cached:2026-10-15T04:16:28.186091+00:00)."
+  },
+  {
+   "acquirer": "TDG",
+   "acquirer_name": "TransDigm Group",
+   "target": "HONA",
+   "target_name": "Honeywell Aerospace",
+   "shared_concept_count": 6,
+   "shared_concepts_top": [
+    "body",
+    "element",
+    "end"
+   ],
+   "redundant_pair_count": 25,
+   "redundant_pairs_top": [
+    {
+     "a_number": "11608917",
+     "a_title": "Non-metallic fluid coupling",
+     "b_number": "12760662",
+     "b_title": "Damping and centering system for rotating machinery",
+     "shared_concepts": [
+      "element",
+      "fluid",
+      "outer"
+     ],
+     "score": 6
+    },
+    {
+     "a_number": "12729784",
+     "a_title": "Non-metallic fluid coupling",
+     "b_number": "12760662",
+     "b_title": "Damping and centering system for rotating machinery",
+     "shared_concepts": [
+      "element",
+      "fluid",
+      "outer"
+     ],
+     "score": 6
+    },
+    {
+     "a_number": "10415720",
+     "a_title": "Automatic fill system",
+     "b_number": "12760748",
+     "b_title": "Jet pump system",
+     "shared_concepts": [
+      "fluid",
+      "sensor"
+     ],
+     "score": 4
+    },
+    {
+     "a_number": "10415720",
+     "a_title": "Automatic fill system",
+     "b_number": "12761099",
+     "b_title": "Emission detection device with a flow profile design that improves response rate",
+     "shared_concepts": [
+      "element",
+      "sensor"
+     ],
+     "score": 4
+    },
+    {
+     "a_number": "10415720",
+     "a_title": "Automatic fill system",
+     "b_number": "12760662",
+     "b_title": "Damping and centering system for rotating machinery",
+     "shared_concepts": [
+      "element",
+      "fluid"
+     ],
+     "score": 4
+    }
+   ],
+   "gap_concept_count": 114,
+   "gap_concepts_top": [
+    "airport",
+    "antenna",
+    "arcing"
+   ],
+   "target_awards_latest_fy": 2025,
+   "target_awards_latest_usd": 1200642.7,
+   "target_awards_source": "Federal obligated award dollars (contracts, grants, loans, direct payments and other financial assistance), USAspending.gov /api/v2/search/spending_by_category/recipient/, matched by recipient name. Federal only; excludes state and local spending.",
+   "portfolio_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:14.678995+00:00",
+    "target": "cached:2026-10-15T04:16:42.926503+00:00"
+   },
+   "awards_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:19.287465+00:00",
+    "target": "cached:2026-10-15T04:16:45.949394+00:00"
+   },
+   "weights": {
+    "concept_overlap": 0.3,
+    "redundancy": 0.2,
+    "gap_closure": 0.25,
+    "award_scale": 0.25
+   },
+   "score_parts": {
+    "concept_overlap": 0.4,
+    "redundancy": 1.0,
+    "gap_closure": 0.983,
+    "award_scale": 0.56
+   },
+   "screening_score": 70.6,
+   "rationale": "TransDigm Group acquiring Honeywell Aerospace. shares 6 technology concepts, including body, element, end. 25 redundant patent pairs suggest overlapping R and D that a merger could prune. adds 114 capabilities TransDigm Group lacks, including airport, antenna, arcing. brings $1,200,643 in FY2025 federal awards under one roof (USAspending.gov, pulled cached:2026-10-15T04:16:45.949394+00:00)."
+  },
+  {
+   "acquirer": "TDG",
+   "acquirer_name": "TransDigm Group",
+   "target": "LHX",
+   "target_name": "L3Harris",
+   "shared_concept_count": 4,
+   "shared_concepts_top": [
+    "adapter",
+    "assembly",
+    "element"
+   ],
+   "redundant_pair_count": 17,
+   "redundant_pairs_top": [
+    {
+     "a_number": "11608917",
+     "a_title": "Non-metallic fluid coupling",
+     "b_number": "12695186",
+     "b_title": "Wideband radio frequency directional antenna adaptor",
+     "shared_concepts": [
+      "adapter",
+      "element"
+     ],
+     "score": 4
+    },
+    {
+     "a_number": "11608917",
+     "a_title": "Non-metallic fluid coupling",
+     "b_number": "12665156",
+     "b_title": "Nightvision tube module simplification",
+     "shared_concepts": [
+      "element",
+      "surface"
+     ],
+     "score": 4
+    },
+    {
+     "a_number": "12729784",
+     "a_title": "Non-metallic fluid coupling",
+     "b_number": "12695186",
+     "b_title": "Wideband radio frequency directional antenna adaptor",
+     "shared_concepts": [
+      "adapter",
+      "element"
+     ],
+     "score": 4
+    },
+    {
+     "a_number": "10415720",
+     "a_title": "Automatic fill system",
+     "b_number": "12665156",
+     "b_title": "Nightvision tube module simplification",
+     "shared_concepts": [
+      "assembly",
+      "element"
+     ],
+     "score": 4
+    },
+    {
+     "a_number": "11608917",
+     "a_title": "Non-metallic fluid coupling",
+     "b_number": "12727074",
+     "b_title": "Transmission line power dividers and power combiners with matched ports",
+     "shared_concepts": [
+      "surface"
+     ],
+     "score": 2
+    }
+   ],
+   "gap_concept_count": 116,
+   "gap_concepts_top": [
+    "agent",
+    "angle values",
+    "antenna"
+   ],
+   "target_awards_latest_fy": 2025,
+   "target_awards_latest_usd": 4978957641.13,
+   "target_awards_source": "Federal obligated award dollars (contracts, grants, loans, direct payments and other financial assistance), USAspending.gov /api/v2/search/spending_by_category/recipient/, matched by recipient name. Federal only; excludes state and local spending.",
+   "portfolio_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:14.678995+00:00",
+    "target": "cached:2026-10-15T04:16:13.309702+00:00"
+   },
+   "awards_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:19.287465+00:00",
+    "target": "cached:2026-10-15T04:16:18.303978+00:00"
+   },
+   "weights": {
+    "concept_overlap": 0.3,
+    "redundancy": 0.2,
+    "gap_closure": 0.25,
+    "award_scale": 0.25
+   },
+   "score_parts": {
+    "concept_overlap": 0.267,
+    "redundancy": 0.68,
+    "gap_closure": 1.0,
+    "award_scale": 0.894
+   },
+   "screening_score": 69.0,
+   "rationale": "TransDigm Group acquiring L3Harris. shares 4 technology concepts, including adapter, assembly, element. 17 redundant patent pairs suggest overlapping R and D that a merger could prune. adds 116 capabilities TransDigm Group lacks, including agent, angle values, antenna. brings $4,978,957,641 in FY2025 federal awards under one roof (USAspending.gov, pulled cached:2026-10-15T04:16:18.303978+00:00)."
+  },
+  {
+   "acquirer": "TDG",
+   "acquirer_name": "TransDigm Group",
+   "target": "HWM",
+   "target_name": "Howmet Aerospace",
+   "shared_concept_count": 7,
+   "shared_concepts_top": [
+    "end",
+    "inner",
+    "metal"
+   ],
+   "redundant_pair_count": 25,
+   "redundant_pairs_top": [
+    {
+     "a_number": "11608917",
+     "a_title": "Non-metallic fluid coupling",
+     "b_number": "12601366",
+     "b_title": "Fluid tight blind fasteners and methods for fastening",
+     "shared_concepts": [
+      "inner",
+      "pin",
+      "sleeve",
+      "surface"
+     ],
+     "score": 8
+    },
+    {
+     "a_number": "11608917",
+     "a_title": "Non-metallic fluid coupling",
+     "b_number": "12397357",
+     "b_title": "Blind fastener",
+     "shared_concepts": [
+      "inner",
+      "pin",
+      "position",
+      "surface"
+     ],
+     "score": 8
+    },
+    {
+     "a_number": "11009159",
+     "a_title": "Visual and tactile latch indicator for a fuel system coupling",
+     "b_number": "12601366",
+     "b_title": "Fluid tight blind fasteners and methods for fastening",
+     "shared_concepts": [
+      "end",
+      "pin",
+      "sleeve",
+      "surface"
+     ],
+     "score": 8
+    },
+    {
+     "a_number": "11009159",
+     "a_title": "Visual and tactile latch indicator for a fuel system coupling",
+     "b_number": "12397357",
+     "b_title": "Blind fastener",
+     "shared_concepts": [
+      "end",
+      "pin",
+      "position",
+      "surface"
+     ],
+     "score": 8
+    },
+    {
+     "a_number": "6971682",
+     "a_title": "Coupling assembly",
+     "b_number": "12397357",
+     "b_title": "Blind fastener",
+     "shared_concepts": [
+      "end",
+      "inner",
+      "pin",
+      "position"
+     ],
+     "score": 8
+    }
+   ],
+   "gap_concept_count": 113,
+   "gap_concepts_top": [
+    "axis",
+    "blind",
+    "blind fastener"
+   ],
+   "target_awards_latest_fy": 2025,
+   "target_awards_latest_usd": 0.0,
+   "target_awards_source": "Federal obligated award dollars (contracts, grants, loans, direct payments and other financial assistance), USAspending.gov /api/v2/search/spending_by_category/recipient/, matched by recipient name. Federal only; excludes state and local spending.",
+   "portfolio_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:14.678995+00:00",
+    "target": "cached:2026-10-15T04:16:52.219997+00:00"
+   },
+   "awards_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:19.287465+00:00",
+    "target": "cached:2026-10-15T04:16:55.496635+00:00"
+   },
+   "weights": {
+    "concept_overlap": 0.3,
+    "redundancy": 0.2,
+    "gap_closure": 0.25,
+    "award_scale": 0.25
+   },
+   "score_parts": {
+    "concept_overlap": 0.467,
+    "redundancy": 1.0,
+    "gap_closure": 0.974,
+    "award_scale": 0.0
+   },
+   "screening_score": 58.4,
+   "rationale": "TransDigm Group acquiring Howmet Aerospace. shares 7 technology concepts, including end, inner, metal. 25 redundant patent pairs suggest overlapping R and D that a merger could prune. adds 113 capabilities TransDigm Group lacks, including axis, blind, blind fastener. brings $0 in FY2025 federal awards under one roof (USAspending.gov, pulled cached:2026-10-15T04:16:55.496635+00:00)."
+  },
+  {
+   "acquirer": "TDG",
+   "acquirer_name": "TransDigm Group",
+   "target": "GE",
+   "target_name": "GE Aerospace",
+   "shared_concept_count": 4,
+   "shared_concepts_top": [
+    "assembly",
+    "inner",
+    "material"
+   ],
+   "redundant_pair_count": 7,
+   "redundant_pairs_top": [
+    {
+     "a_number": "11608917",
+     "a_title": "Non-metallic fluid coupling",
+     "b_number": "12760660",
+     "b_title": "Gas turbine engine and casing assembly therefor",
+     "shared_concepts": [
+      "inner",
+      "material",
+      "outer"
+     ],
+     "score": 6
+    },
+    {
+     "a_number": "12729784",
+     "a_title": "Non-metallic fluid coupling",
+     "b_number": "12760660",
+     "b_title": "Gas turbine engine and casing assembly therefor",
+     "shared_concepts": [
+      "inner",
+      "material",
+      "outer"
+     ],
+     "score": 6
+    },
+    {
+     "a_number": "7176421",
+     "a_title": "Straight ribbon heater",
+     "b_number": "12760660",
+     "b_title": "Gas turbine engine and casing assembly therefor",
+     "shared_concepts": [
+      "assembly",
+      "inner",
+      "outer"
+     ],
+     "score": 6
+    },
+    {
+     "a_number": "6971682",
+     "a_title": "Coupling assembly",
+     "b_number": "12760660",
+     "b_title": "Gas turbine engine and casing assembly therefor",
+     "shared_concepts": [
+      "assembly",
+      "inner",
+      "outer"
+     ],
+     "score": 6
+    },
+    {
+     "a_number": "10415720",
+     "a_title": "Automatic fill system",
+     "b_number": "12760660",
+     "b_title": "Gas turbine engine and casing assembly therefor",
+     "shared_concepts": [
+      "assembly"
+     ],
+     "score": 2
+    }
+   ],
+   "gap_concept_count": 116,
+   "gap_concepts_top": [
+    "aft",
+    "aft casing",
+    "aft casing section"
+   ],
+   "target_awards_latest_fy": 2025,
+   "target_awards_latest_usd": 27832448.26,
+   "target_awards_source": "Federal obligated award dollars (contracts, grants, loans, direct payments and other financial assistance), USAspending.gov /api/v2/search/spending_by_category/recipient/, matched by recipient name. Federal only; excludes state and local spending.",
+   "portfolio_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:14.678995+00:00",
+    "target": "cached:2026-10-15T04:16:31.742158+00:00"
+   },
+   "awards_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:19.287465+00:00",
+    "target": "cached:2026-10-15T04:16:36.505407+00:00"
+   },
+   "weights": {
+    "concept_overlap": 0.3,
+    "redundancy": 0.2,
+    "gap_closure": 0.25,
+    "award_scale": 0.25
+   },
+   "score_parts": {
+    "concept_overlap": 0.267,
+    "redundancy": 0.28,
+    "gap_closure": 1.0,
+    "award_scale": 0.686
+   },
+   "screening_score": 55.8,
+   "rationale": "TransDigm Group acquiring GE Aerospace. shares 4 technology concepts, including assembly, inner, material. 7 redundant patent pairs suggest overlapping R and D that a merger could prune. adds 116 capabilities TransDigm Group lacks, including aft, aft casing, aft casing section. brings $27,832,448 in FY2025 federal awards under one roof (USAspending.gov, pulled cached:2026-10-15T04:16:36.505407+00:00)."
+  },
+  {
+   "acquirer": "TDG",
+   "acquirer_name": "TransDigm Group",
+   "target": "GD",
+   "target_name": "General Dynamics",
+   "shared_concept_count": 0,
+   "shared_concepts_top": [],
+   "redundant_pair_count": 0,
+   "redundant_pairs_top": [],
+   "gap_concept_count": 0,
+   "gap_concepts_top": [],
+   "target_awards_latest_fy": 2025,
+   "target_awards_latest_usd": 10882970830.45,
+   "target_awards_source": "Federal obligated award dollars (contracts, grants, loans, direct payments and other financial assistance), USAspending.gov /api/v2/search/spending_by_category/recipient/, matched by recipient name. Federal only; excludes state and local spending.",
+   "portfolio_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:14.678995+00:00",
+    "target": "cached:2026-10-15T04:15:13.192798+00:00"
+   },
+   "awards_provenance": {
+    "acquirer": "cached:2026-10-15T04:17:19.287465+00:00",
+    "target": "cached:2026-10-15T04:15:24.988556+00:00"
+   },
+   "weights": {
+    "concept_overlap": 0.3,
+    "redundancy": 0.2,
+    "gap_closure": 0.25,
+    "award_scale": 0.25
+   },
+   "score_parts": {
+    "concept_overlap": 0.0,
+    "redundancy": 0.0,
+    "gap_closure": 0.0,
+    "award_scale": 0.925
+   },
+   "screening_score": 23.1,
+   "rationale": "TransDigm Group acquiring General Dynamics. shares no extracted technology concepts. brings $10,882,970,830 in FY2025 federal awards under one roof (USAspending.gov, pulled cached:2026-10-15T04:15:24.988556+00:00)."
+  }
+ ]
+}

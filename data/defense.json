@@ -1,0 +1,100 @@
+{
+ "capabilities": [
+  {
+   "id": 1,
+   "name": "F-35 squadron",
+   "domain": "air",
+   "readiness": 3,
+   "readiness_label": "fielded",
+   "quantity": 24,
+   "home_unit": "1st Wing",
+   "source": "registry",
+   "status": "fielded",
+   "registered_at": "2026-10-15T20:04:45.522769+00:00"
+  },
+  {
+   "id": 2,
+   "name": "candidate: accessory",
+   "domain": "air",
+   "readiness": 2,
+   "readiness_label": "prototype",
+   "quantity": 1,
+   "home_unit": "",
+   "source": "mafp:TDG->BA",
+   "status": "candidate",
+   "registered_at": "2026-10-15T20:04:45.577159+00:00",
+   "mafp_score": 96.5,
+   "mafp_rationale": "TransDigm Group acquiring Boeing. shares 15 technology concepts, including aircraft, assembly, base. 25 redundant patent pairs suggest overlapping R and D that a merger could prune. adds 105 capabilities TransDigm Group lacks, including accessory, accessory port, actuator. brings $23,804,316,463 in FY2025 federal awards under one roof (USAspending.gov, pulled cached:2026-10-15T04:15:52.808310+00:00)."
+  },
+  {
+   "id": 3,
+   "name": "candidate: accessory port",
+   "domain": "air",
+   "readiness": 2,
+   "readiness_label": "prototype",
+   "quantity": 1,
+   "home_unit": "",
+   "source": "mafp:TDG->BA",
+   "status": "candidate",
+   "registered_at": "2026-10-15T20:04:45.577461+00:00",
+   "mafp_score": 96.5,
+   "mafp_rationale": "TransDigm Group acquiring Boeing. shares 15 technology concepts, including aircraft, assembly, base. 25 redundant patent pairs suggest overlapping R and D that a merger could prune. adds 105 capabilities TransDigm Group lacks, including accessory, accessory port, actuator. brings $23,804,316,463 in FY2025 federal awards under one roof (USAspending.gov, pulled cached:2026-10-15T04:15:52.808310+00:00)."
+  },
+  {
+   "id": 4,
+   "name": "candidate: actuator",
+   "domain": "air",
+   "readiness": 2,
+   "readiness_label": "prototype",
+   "quantity": 1,
+   "home_unit": "",
+   "source": "mafp:TDG->BA",
+   "status": "candidate",
+   "registered_at": "2026-10-15T20:04:45.577792+00:00",
+   "mafp_score": 96.5,
+   "mafp_rationale": "TransDigm Group acquiring Boeing. shares 15 technology concepts, including aircraft, assembly, base. 25 redundant patent pairs suggest overlapping R and D that a merger could prune. adds 105 capabilities TransDigm Group lacks, including accessory, accessory port, actuator. brings $23,804,316,463 in FY2025 federal awards under one roof (USAspending.gov, pulled cached:2026-10-15T04:15:52.808310+00:00)."
+  },
+  {
+   "id": 5,
+   "name": "candidate: along",
+   "domain": "air",
+   "readiness": 2,
+   "readiness_label": "prototype",
+   "quantity": 1,
+   "home_unit": "",
+   "source": "mafp:TDG->RTX",
+   "status": "candidate",
+   "registered_at": "2026-10-15T20:04:45.577943+00:00",
+   "mafp_score": 91.8,
+   "mafp_rationale": "TransDigm Group acquiring RTX Corporation. shares 13 technology concepts, including assembly, base, elements. 25 redundant patent pairs suggest overlapping R and D that a merger could prune. adds 107 capabilities TransDigm Group lacks, including along, annular, arm. brings $7,285,263,025 in FY2025 federal awards under one roof (USAspending.gov, pulled cached:2026-10-15T04:14:56.550723+00:00)."
+  },
+  {
+   "id": 6,
+   "name": "candidate: annular",
+   "domain": "air",
+   "readiness": 2,
+   "readiness_label": "prototype",
+   "quantity": 1,
+   "home_unit": "",
+   "source": "mafp:TDG->RTX",
+   "status": "candidate",
+   "registered_at": "2026-10-15T20:04:45.578615+00:00",
+   "mafp_score": 91.8,
+   "mafp_rationale": "TransDigm Group acquiring RTX Corporation. shares 13 technology concepts, including assembly, base, elements. 25 redundant patent pairs suggest overlapping R and D that a merger could prune. adds 107 capabilities TransDigm Group lacks, including along, annular, arm. brings $7,285,263,025 in FY2025 federal awards under one roof (USAspending.gov, pulled cached:2026-10-15T04:14:56.550723+00:00)."
+  },
+  {
+   "id": 7,
+   "name": "candidate: arm",
+   "domain": "air",
+   "readiness": 2,
+   "readiness_label": "prototype",
+   "quantity": 1,
+   "home_unit": "",
+   "source": "mafp:TDG->RTX",
+   "status": "candidate",
+   "registered_at": "2026-10-15T20:04:45.579067+00:00",
+   "mafp_score": 91.8,
+   "mafp_rationale": "TransDigm Group acquiring RTX Corporation. shares 13 technology concepts, including assembly, base, elements. 25 redundant patent pairs suggest overlapping R and D that a merger could prune. adds 107 capabilities TransDigm Group lacks, including along, annular, arm. brings $7,285,263,025 in FY2025 federal awards under one roof (USAspending.gov, pulled cached:2026-10-15T04:14:56.550723+00:00)."
+  }
+ ]
+}
